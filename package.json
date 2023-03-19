@@ -1,6 +1,6 @@
 {
   "name": "@amami-harhid/p5playcustomize",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "customize p5.js+p5play",
   "main": "lib/p5playcustomize.js",
   "scripts": {
