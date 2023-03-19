@@ -26,6 +26,14 @@ p5playで作品を作りながら、気づいたところを直してバージ�
 ## INSTALL方法
 
 ```
+npm login --scope=amami-harhid --auth-type=legacy --registry=https://npm.pkg.github.com
+
+> username : amami-harhid
+> password : {SEC_TOKEN}
+
+```
+
+```
 npm i @amami-harhid/p5playcustomize
 ```
 
@@ -92,3 +100,9 @@ const ms = new p5(s);
 
 ```
 
+## セキュリティトークン
+
+セキュリティトークンがないと npm login できません。
+参照専用のセキュリティトークンは用意済ですが、さすがに公開できないです。
+
+ご利用されたい方には 個別にお知らせします。
