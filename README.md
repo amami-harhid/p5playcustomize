@@ -1,11 +1,22 @@
 # p5playcustomize
 p5.js + p5play.js をカスタマイズします。
 
+## バージョン
+
+0.0.3
+
 ## SVGファイル描画のなめらか対応
 
 オリジナル p5.loadImage でもSVGファイルを読み込めますが、Bitmap化されてしまうため拡大時にぎざぎざと粗く描画されます。
 - HtmlImageの状態を p5.Image内に保持します
 - drawImageをするときにp5.ImageではなくHtmlImageより描画します。
+
+## 言い訳
+
+作ったばかりであまり試せていないです。自分だけで使っている状態です。
+スプライトを回転させたり拡大・縮小させたり移動させたりアニメーションをさせたりして、なめらかな描画を楽しんでいるだけです。
+p5playで作品を作りながら、気づいたところを直してバージョンアップしていきます（気が向いたら）。
+おかしなところがあればご連絡ください。(→ amami-thida100@outlook.jp)
 
 ## 試したバージョン
 
@@ -25,6 +36,7 @@ npm i @amami-harhid/p5playcustomize@0.0.1
 ```: main.js
 
 import '../node_modules/p5/lib/p5.js'
+import '../node_modules/planck/dist/planck.js';
 import '../node_modules/p5.play/p5play.js';
 import '../node_modules/@amami-harhid/p5playcustomize/lib/p5playcustomize.js'
 
