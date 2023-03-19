@@ -20,8 +20,8 @@ p5playで作品を作りながら、気づいたところを直してバージ�
 
 ## 試したバージョン
 
-p5.js : v1.6.0 February 22, 2023
-p5play.js : v3.7
+- p5.js : v1.6.0 February 22, 2023
+- p5play.js : v3.7
 
 ## INSTALL方法
 
