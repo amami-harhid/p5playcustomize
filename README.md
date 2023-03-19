@@ -26,7 +26,7 @@ p5play.js : v3.7
 ## INSTALL方法
 
 ```
-npm i @amami-harhid/p5playcustomize@0.0.1
+npm i @amami-harhid/p5playcustomize
 ```
 
 必要な p5, p5.play, planck は一緒にinstallされます。 
