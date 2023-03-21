@@ -11,6 +11,15 @@ p5.js + p5play.js をカスタマイズします。
 - HtmlImageの状態を p5.Image内に保持します
 - drawImageをするときにp5.ImageではなくHtmlImageより描画します。
 
+## 描画の比較
+### オリジナル p5.js+p5play.jsのとき
+![p5playcustomize_粗いDrawing](https://user-images.githubusercontent.com/128221872/226165626-9bdeaa42-0414-465e-a014-61dc149518fb.gif)
+
+### p5playcustomize.jsのとき
+![p5playcustomize_なめらかDrawing](https://user-images.githubusercontent.com/128221872/226165649-c2864c3f-5be2-4344-bb15-102958802449.gif)
+
+
+
 ## 言い訳
 
 作ったばかりであまり試せていないです。自分だけで使っている状態です。
