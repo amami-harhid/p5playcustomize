@@ -25,14 +25,13 @@ p5playで作品を作りながら、気づいたところを直してバージ�
 
 ## INSTALL方法
 
+### .npmrc
+プロジェクトのトップに .npmrc を作成してください
 ```
-npm login --scope=amami-harhid --auth-type=legacy --registry=https://npm.pkg.github.com
-
-> username : amami-harhid
-> password : {SEC_TOKEN}
-
+//npm.pkg.github.com/:_authToken={SEC_TOKEN}
+@amami-harhid:registry=https://npm.pkg.github.com
 ```
-
+### npm install
 ```
 npm i @amami-harhid/p5playcustomize
 ```
